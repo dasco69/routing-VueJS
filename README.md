@@ -1,20 +1,24 @@
 # Routing in  VueJS
 ## Create file App
+```
   touch App.vue
-
+```
 ## Dependance node
+```
   npm init
-
+```
 ## Install vue-router
+```  
   npm i vue-router
-
+```
 ## create folder for router
+```
   mkdir router
   cd router/
   touch index.js
-
+```
 ## In index.js
-
+```
   import Vue from 'vue'
   import VueRouter from 'vue-router'
 
@@ -33,8 +37,9 @@
 
 
   export default router //we utilise this inside App.vue
-
+```
 ## App.vue
+``` 
   <template>
       <div>
           <nav>
@@ -57,14 +62,17 @@
       }
   </script>
   ...
-
+```
 ## Add components
   ### We create components folder in root project
+```
   mkdir components
   cd components
   ### Create file components
   touch Home.vue && touch About.vue && touch Contact.vue
+```
 ## Template Home , About, Contact
+```  
   <template>
     <div>
         Home <!--It's just for exemple normaly you push this inside paragraph tag-->
@@ -76,14 +84,16 @@
           name: 'Home'
       }
   </script>
-
+```
 
 
 ## Sart Vue app
+```
   vue serve
-
-##Return 
- DONE  Compiled successfully in 2893ms                                13:45:20
+```
+## Return 
+```
+DONE  Compiled successfully in 2893ms                                13:45:20
 
 
   App running at:
@@ -92,8 +102,8 @@
 
   Note that the development build is not optimized.
   To create a production build, run npm run build.
-
-##OK
+```
+## Finished
 
 
 
